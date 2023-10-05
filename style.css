@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #23252C; 
+    color: whitesmoke;
+}
+
+.page-wrapper {
+    max-width: 320px;
+    margin: 2em auto;
+    box-shadow: 3px 3px 8px #1A1B21;
+}
+
+main {
+    padding: 2.2em 2.1em 1.5em;
+    background: #1A1B21;
+}
+
+/* ------ Header ------ */
+
+.img-wrapper {
+    background-color: #23252C;
+}
+
+.img-wrapper img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+}
+
+.header {
+    text-align: center;
+    background: #1A1B21;
+}
+
+.header--title {
+    font-size: 1.5625rem;
+    margin: 1em 0 0;
+}
+
+.header--occupation {
+    color: #F3BF99;
+    font-size: 0.8rem;
+    margin: 0.3125em 0 0.925em;
+}
+
+/* ----- buttons ----- */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.8em;
+    padding-top: 0.5em;
+}
+
+.header-btn {
+    font-family: inherit;
+    font-size: 0.875rem;
+    padding: 0.625em;
+    border-radius: 6px;
+    width: 8.5em;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.email-btn {
+    color: #374151;
+    background-color: white;
+}
+
+.fa-envelope,
+.fa-linkedin {
+    margin-right: 0.59em;
+}
+
+.fa-envelope {
+    color: #1A1B21; 
+}
+
+.linkedIn-btn {
+    color: white;
+    background: #5093E2;
+}
+
+/* ------ sections ------ */
+
+section {
+    padding-bottom: 0.9em;
+}
+
+section h3 {
+    font-size: 1rem;
+    margin: 0 0 0.3125em;
+}
+
+section p {
+    font-size: 0.65625rem;
+    margin: 0;
+}
+
+/* ------ Footer ------ */
+footer {
+    background: #161619;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 0.8em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer .fa-brands {
+    font-size: 1.5rem;
+    color: #918E9B;
+}
